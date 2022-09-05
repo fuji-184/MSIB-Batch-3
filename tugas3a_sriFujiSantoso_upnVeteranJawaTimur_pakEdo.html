@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tugas 3A</title>
+	</head>
+	<body>
+		<form name="regProduk" method="GET" target="#">
+			<table width="40%" align="center" border="0" cellpadding="15">
+				<thead>
+					<tr bgcolor="gray">
+						<th colspan="2">Form Register Produk</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><label>Nama Produk</label></td>
+						<td>
+							<input type="text" name="nama" size="50"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Jenis Produk</label></td>
+						<td>
+							<select name="jenis">
+								<option value="">-- Kategori Produk --</option>
+								<option value="makanan">Makanan</option>
+								<option value="minuman">Minuman</option>
+								<option value="pakaian">Pakaian</option>
+								<option value="perabotan">Perabotan</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Harga</label></td>
+						<td>
+							<input type="text" name="harga" size="50"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Stok</label></td>
+						<td>
+							<input type="text" name="stok" size="50"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Photo</label></td>
+						<td>
+							<input type="text" name="photo" size="50"/>
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr bgcolor="gray" align="center">
+							<td colspan="2">
+								<input type="submit" name="proses" value="kirim"/>&nbsp;&nbsp;
+								<input type="reset" name="unproses" value="batal"/>
+							</td>
+					</tr>
+				</tfoot>
+			</table>
+		</form>
+	</body>
+</html>
